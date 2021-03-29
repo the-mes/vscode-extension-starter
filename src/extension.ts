@@ -8,7 +8,7 @@ export function activate(context: vscode.ExtensionContext) {
     async () => {
       vscode.commands.executeCommand('vscode.open');
 
-      // Do something e.g. dance, f*cker dance
+      // Do something
     }
   );
 
