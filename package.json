@@ -1,7 +1,7 @@
 {
-  "name": "skin-maker",
-  "displayName": "Skin Maker",
-  "description": "VS Code color theme creator ",
+  "name": "vscode-extension-starter",
+  "displayName": "VSCode Extension Starter",
+  "description": "Template for VSCode Extension",
   "version": "1.0.0",
   "engines": {
     "vscode": "^1.39.0"
@@ -10,14 +10,14 @@
     "Themes"
   ],
   "activationEvents": [
-    "onCommand:extension.createSkin"
+    "onCommand:extension.exampleCommand"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "extension.createSkin",
-        "title": "Create Skin"
+        "command": "extension.exampleCommand",
+        "title": "Example Command"
       }
     ]
   },
@@ -27,11 +27,6 @@
     "watch": "tsc -watch -p ./",
     "pretest": "npm run compile",
     "test": "node ./out/test/runTest.js"
-  },
-  "dependencies": {
-    "color-thief": "^2.2.5",
-    "colorthief": "^2.3.0",
-    "get-image-colors": "^2.0.1"
   },
   "devDependencies": {
     "@types/glob": "^7.1.1",

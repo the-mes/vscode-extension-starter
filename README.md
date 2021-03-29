@@ -1,6 +1,6 @@
-# skin-maker README
+# vscode-extension-starter README
 
-This is the README for your extension "skin-maker". After writing up a brief description, we recommend including the following sections.
+This is the README for your extension "vscode-extension-starter". After writing up a brief description, we recommend including the following sections.
 
 ## Features
 
